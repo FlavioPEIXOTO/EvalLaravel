@@ -29,9 +29,11 @@ body .connexion_container, .inscription_container{
 }
 
 .block_post{
-    width: 30rem;
+    width: 80rem;
     height: 20rem;
     border: 1px rgb(202, 202, 202) solid;
+    margin-left: 3rem;
+    padding: 1rem;
 }
 
 .text_post{
