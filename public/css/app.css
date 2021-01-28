@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Copperplate Gothic Bold', sans-serif;
+}
+
+body .connexion_container, .inscription_container{
+    background: linear-gradient(to left, #7edde0 , #1d1b7e);
+}
+
+.main{
+    /* margin-top: 30px; */
+    /* display: flex;
+    flex-direction: row; */
+    background: linear-gradient(to left, rgba(238, 216, 15, 0.4) , #e6e20f);
+}
+
+
+.sect_Header{
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+#navbarSupportedContent{
+    justify-content: space-around;
+}
+
+
+.footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+/* .connexion_container{
+    background: linear-gradient(to left, #7edde0 , #1d1b7e);
+} */
+
+#title_connexion{
+    letter-spacing: 2px;
+    text-align: center;
+}
+.form-signin {
+  width: 40rem;
+  /* max-width: 330px; */
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.redirection_inscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#button_redirection{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to left, #7edde0 , #1d1b7e);
+}
+
+#button_redirection:hover{
+    background: linear-gradient(to right, #7edde0 , #1d1b7e);
+}
+#title_inscription{
+    margin: 1rem auto;
+    color: white;
+}
+
+#block_container{
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+#button_redirection{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to left, #7edde0 , #1d1b7e);
+}
+
+#button_redirection:hover{
+    background: linear-gradient(to right, #7edde0 , #1d1b7e);
+}
+.section-content{
+    text-align: center; 
+
+}
+#contact{
+    font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100%;
+    height: 400px;
+    background: #3a6186; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #413d1f , #d4bac0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;    
+}
+.contact-section{
+    padding-top: 40px;
+}
+.contact-section .col-md-6{
+    width: 50%;
+}
+
+.form-line{
+    border-right: 1px solid #B29999;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+    label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+    .form-control{
+    font-size: 1.3em;
+    color: #080808;
+}
+
+    textarea.form-control {
+        height: 135px;
+        /* margin-top: px;*/
+}
+
+    .submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+
+

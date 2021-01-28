@@ -1,0 +1,24 @@
+#title_inscription{
+    margin: 1rem auto;
+    color: white;
+}
+
+#block_container{
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+#button_redirection{
+    background: linear-gradient(to left, #7edde0 , #1d1b7e);
+    text-decoration: none;
+}
+
+#text_button{
+    text-decoration: none;
+    color: white;
+}
+
+#button_redirection:hover{
+    background: linear-gradient(to right, #7edde0 , #1d1b7e);
+    transition: 2s;
+}

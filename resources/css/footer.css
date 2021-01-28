@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.site_footer{
+    text-decoration: none;
+    color: black;
+}
+
+.separ_foot{
+    border: 0.1px rgb(202, 202, 202) solid;
+    width: 0.1px;
+    margin: auto 3rem;
+}
+
+.block_foot{
+    display: flex;
+    flex-direction: row;
+}
+
+.lienFooter{
+    margin: auto 1rem;
+}

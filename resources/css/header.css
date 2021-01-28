@@ -1,0 +1,14 @@
+.sect_Header{
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+#navbarSupportedContent{
+    justify-content: space-around;
+}
+
+#search_head{
+    color: black;
+    text-decoration: none;
+}
