@@ -1,3 +1,32 @@
+////////////////////////////////////////////////////////////
+Membres du projet :
+COUSDIKIAN Tom
+PEIXOTO Flavio
+
+Le projet consiste en la possibilité de se créer un compte, se connecter et ainsi pouvoir rédigier des histoires qui seront alors affichées dans l'index par tout les utilisateurs du site.
+L'inscription et la connexion fonctionnent et permrttent a l'utilisateur d'accèder a un espace privé.
+Depuis un compte, il est possible de compléter un formulaire afin d'envoyer un post de son histoire, cette dernière est enregistrée dans la bdd avec un user_id, un titre, une date de post et le texte correspondant aà l'histoire.
+
+Nous avons manqué de temps pour le css dela page d'accueil, la gestion image du logo et la complétion de la possibilité de modifier ou supprimer un post Story (l'algo a été fait mais des bug inatendu sont survenus).
+
+////
+Répartitions des tâches
+///
+COUSDIKIAN Tom :
+--> index (style + affichage donnée
+--> header + footer
+--> connexion + inscription (syle + bdd)
+
+
+PEIXOTO Flavio :
+--> connexion + inscription (bdd)
+-->compte User (bdd + formulaire)
+-->ajout et modif story (bdd + style)
+
+
+//////////////////////////////////////////////////////////////
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
